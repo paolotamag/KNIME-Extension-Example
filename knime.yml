@@ -3,8 +3,7 @@ group_id: org.knime.python.examples
 name: geo_distances
 description: "This extension showcases an example KNIME node developed using Python. The node is called 'Geo Distances' and computes the distance between two locations using their GPS coordinates."
 author: paolo and monty
-#environment_name: my_env
-env_yml_path: env.yml #added during bundling
+env_yml_path: env.yml
 extension_module: my_extension # Name of the Python file which shall be used without '.py'
 license_file: LICENSE.TXT # This template uses a KNIME specific GPLv3 license; consider using your own
 version: 0.0.1
