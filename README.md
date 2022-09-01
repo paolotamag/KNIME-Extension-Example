@@ -3,12 +3,13 @@
 
 Welcome to the KNIME Extension-Example! 
 
-With this repoistry, we showcase an example on how a KNIME node can be developed using Python. We build the KNIME node called "**Geo Distances**" using this repo. This node computes the distance between two locations using their GPS coordinates.   
+With this repository, we showcase how a KNIME node can be developed using Python. 
 
-To get a detailed explanation how KNIME nodes can be built using Python, please read the blog post. 
+In this example we build the KNIME node called "**Geo Distances**" to compute the distance between two locations using their GPS coordinates.   
+
+This example is adopted in the article "[4 Steps for your Python Team to Develop KNIME Nodes](https://www.knime.com/blog/4-steps-for-your-python-team-to-develop-knime-nodes)" on KNIME Blog.
+
+More detailed documentation at "[Create a New Python based KNIME Extension](https://docs.knime.com/latest/pure_python_node_extensions_guide/index.html#introduction)" on KNIME Docs.
 
 
-
-Resources:
-
-[Create a New Python based KNIME Extension](https://docs.knime.com/latest/pure_python_node_extensions_guide/index.html#introduction)
+![We implemented nodes to compute distances. The top input lists in two columns the locations between which a distance needs to be computed. The second input lists the coordinates for each location mentioned in the top input. The output is the first input with the distances in kilometers attached in a new third column.](README-figure.png "The KNIME node defined in this Python repository")
